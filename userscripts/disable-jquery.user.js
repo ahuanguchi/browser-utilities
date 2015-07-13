@@ -10,6 +10,10 @@
 // ==/UserScript==
 
 window.addEventListener("load", function () {
-  $ = null;
-  jQuery = null;
+  if (window.hasOwnProperty("$")) {
+    window.$ = null;
+  }
+  if (window.hasOwnProperty("jQuery")) {
+    window.jQuery = null;
+  }
 });
