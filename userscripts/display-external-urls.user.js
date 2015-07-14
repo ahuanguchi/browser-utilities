@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         display-external-urls
 // @namespace    https://github.com/ahuanguchi
-// @version      1.0.1
-// @description  Display the URLs of links that have a different base URL than the current page.
+// @version      1.0.2
+// @description  Display the URLs of external links.
 // @author       ahuanguchi
 // @match        *://*/*
 // @grant        none

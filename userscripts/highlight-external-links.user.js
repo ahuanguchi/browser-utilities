@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         highlight-external-links
 // @namespace    https://github.com/ahuanguchi
-// @version      1.0.1
-// @description  Highlight all links that have a different base URL than the current page.
+// @version      1.0.2
+// @description  Highlight all external links in lime green.
 // @author       ahuanguchi
 // @match        *://*/*
 // @grant        none
