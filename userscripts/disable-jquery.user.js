@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         disable-jquery
 // @namespace    https://github.com/ahuanguchi
-// @version      0.1
-// @description  none
+// @version      1.0.0
+// @description  Disable jQuery after the page loads. Useful for sites that rely on jQuery to penalize AdBlock users.
 // @author       ahuanguchi
 // @match        http*://*/*
 // @grant        none

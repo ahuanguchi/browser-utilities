@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         hide-iframes
 // @namespace    https://github.com/ahuanguchi
-// @version      0.1
-// @description  none
+// @version      1.0.0
+// @description  Hide all iframes on the page.
 // @author       ahuanguchi
 // @match        http*://*/*
 // @grant        none

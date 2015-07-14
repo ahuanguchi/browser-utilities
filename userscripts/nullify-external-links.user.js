@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         nullify-external-links
 // @namespace    https://github.com/ahuanguchi
-// @version      0.1
-// @description  none
+// @version      1.0.0
+// @description  Only allow links that have the same base URL as the current page.
 // @author       ahuanguchi
 // @match        http*://*/*
 // @grant        none
