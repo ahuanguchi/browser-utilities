@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         nullify-all-links
 // @namespace    https://github.com/ahuanguchi
-// @version      1.0.0
+// @version      1.0.1
 // @description  Prevent all links from working.
 // @author       ahuanguchi
-// @match        http*://*/*
+// @match        *://*/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==

@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         clear-all-timeouts
 // @namespace    https://github.com/ahuanguchi
-// @version      1.1.0
+// @version      1.1.1
 // @description  Clear all timeouts after the page loads. Useful for sites that rely on timeouts to penalize AdBlock users (a common anti-AdBlock technique).
 // @author       ahuanguchi
-// @match        http*://*/*
+// @match        *://*/*
 // @grant        none
 // @run-at       document-start
 // ==/UserScript==
