@@ -12,18 +12,24 @@
 (function () {
   var video, duration, currentSrc, previousSrc;
   var waitTime = 1500;
+  function checkTime() {
+    if (duration - video.currentTime < 0.5) {
+      video.pause();
+      video.removeEventListener("timeupdate", checkTime);
+    }
+  }
   function preventPlaylistAutoplay() {
+    var loc = document.location;
     video = document.getElementsByTagName("video")[0];
     if (video) {
       if (!currentSrc) {
         currentSrc = video.src;
       }
       duration = video.duration;
-      video.addEventListener("timeupdate", function () {
-        if (duration - video.currentTime < 0.5) {
-          video.pause();
-        }
-      });
+      if (loc.hostname === "www.youtube.com" && loc.search.indexOf("list=") === -1) {
+        return;
+      }
+      video.addEventListener("timeupdate", checkTime);
       console.info("Tracking video time.");
     } else {
       console.info("No video found.");
