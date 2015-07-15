@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         prevent-playlist-autoplay
 // @namespace    https://github.com/ahuanguchi
-// @version      1.0.0
+// @version      1.1.0
 // @description  Prevent autoplay for HTML5 video playlists (particularly on YouTube) by making them pause before they can move on. Works on videos in iframes too.
 // @author       ahuanguchi
 // @match        *://*/*
