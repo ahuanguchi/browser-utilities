@@ -10,7 +10,7 @@ for line in easylist:
         split_line = line.replace('||', '').split('^$', 1)
         if len(split_line) == 2:
             domain, options = split_line
-            if 'third-party' in options and '*' not in domain and '/' not in domain:
+            if re.search(r'(^|,)third-party', options) and '*' not in domain and '/' not in domain:
                 bad_domains.add(domain)
     elif line.startswith('@@||'):
         domain = re.split(r'[\^,\*,/]', line.replace('@@||', ''), 1)[0]
