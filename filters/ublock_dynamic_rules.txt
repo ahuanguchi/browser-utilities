@@ -23,6 +23,7 @@ no-strict-blocking: sourceforge.net true
 * adotube.com * block
 * adprotected.com * block
 * ads-v-darwin.hulu.com * block
+* ads.nicovideo.jp * block
 * adscale.de * block
 * adscendmedia.com * block
 * adserving.unibet.com * block

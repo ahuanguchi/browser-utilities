@@ -19,6 +19,7 @@ for line in easylist:
 
 additional_domains = (
     'ads-v-darwin.hulu.com',
+    'ads.nicovideo.jp',
     'google-analytics.com',
     'http://kissanime.com/Ads',
     'http://kissanime.com/ads',
