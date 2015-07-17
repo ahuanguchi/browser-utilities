@@ -7,13 +7,13 @@ bad_exceptions = set()
 
 for line in easylist:
     if line.startswith('||'):
-        split_line = line.replace('||', '').split('^$', 1)
+        split_line = line[2:].split('^$', 1)
         if len(split_line) == 2:
             domain, options = split_line
-            if re.search(r'(^|,)third-party', options) and '*' not in domain and '/' not in domain:
+            if '/' not in domain and '*' not in domain and re.search(r'(^|,)third-party', options):
                 bad_domains.add(domain)
     elif line.startswith('@@||'):
-        domain = re.split(r'[\^,\*,/]', line.replace('@@||', ''), 1)[0]
+        domain = re.split(r'[\^\*/]', line[4:], 1)[0]
         if domain in bad_domains:
             bad_exceptions.add(domain)
 
