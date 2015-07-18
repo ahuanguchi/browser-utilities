@@ -25,6 +25,7 @@ additional_domains = (
     'http://kissanime.com/ads',
     'http://kissmanga.com/ads',
     'referrer.disqus.com',
+    'syndication.streamads.yahoo.com',
     'whos.amung.us'
 )
 

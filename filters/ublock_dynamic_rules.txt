@@ -24,7 +24,6 @@ no-strict-blocking: sourceforge.net true
 * adprotected.com * block
 * ads-v-darwin.hulu.com * block
 * ads.nicovideo.jp * block
-* adscale.de * block
 * adscendmedia.com * block
 * adserving.unibet.com * block
 * adshost1.com * block
@@ -36,7 +35,6 @@ no-strict-blocking: sourceforge.net true
 * adultadworld.com * block
 * advertisegame.com * block
 * adzerk.net * block
-* airpush.com * block
 * am10.ru * block
 * amazon-adsystem.com * block
 * andohs.net * block
@@ -61,7 +59,6 @@ no-strict-blocking: sourceforge.net true
 * chronophotographie.science * block
 * clicksor.net * block
 * clickxchange.com * block
-* clkrev.com * block
 * collective-media.net * block
 * content.ad * block
 * cpalead.com * block
@@ -71,7 +68,6 @@ no-strict-blocking: sourceforge.net true
 * criteo.com * block
 * da-ads.com * block
 * directorym.com * block
-* directrev.com * block
 * dollarade.com * block
 * dotomi.com * block
 * doubleclick.net * block
@@ -129,7 +125,6 @@ no-strict-blocking: sourceforge.net true
 * partner.googleadservices.com * block
 * pntrs.com * block
 * popads.net * block
-* popsads.com * block
 * popunder.ru * block
 * propellerads.com * block
 * pubads.g.doubleclick.net * block
@@ -152,6 +147,7 @@ no-strict-blocking: sourceforge.net true
 * sponsorselect.com * block
 * spotrails.com * block
 * spotxchange.com * block
+* syndication.streamads.yahoo.com * block
 * tapad.com * block
 * tcadops.ca * block
 * telemetryverification.net * block
