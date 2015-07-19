@@ -32,6 +32,11 @@ additional_domains = (
 for domain in additional_domains:
     bad_exceptions.add(domain)
 
+for domain in bad_exceptions.copy():
+    dot_count = domain.count('.')
+    if dot_count > 1 and domain.split('.', dot_count - 1)[-1] in bad_exceptions:
+        bad_exceptions.remove(domain)
+
 with open('ublock_dynamic_rules.txt', 'w') as f:
     f.write('no-strict-blocking: sourceforge.net true\n')
     f.write('\n'.join('* %s * block' % x for x in sorted(bad_exceptions)))
