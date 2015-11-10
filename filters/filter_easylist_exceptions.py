@@ -18,15 +18,18 @@ for line in easylist:
             bad_exceptions.add(domain)
 
 additional_domains = (
+    'a.huluad.com',
     'ads-v-darwin.hulu.com',
     'ads.nicovideo.jp',
     'google-analytics.com',
     'http://kissanime.com/Ads',
     'http://kissanime.com/ads',
     'http://kissmanga.com/ads',
+    'http://kissanime.to/Ads',
+    'http://kissanime.to/ads',
     'referrer.disqus.com',
     'syndication.streamads.yahoo.com',
-    'whos.amung.us'
+    'whos.amung.us',
 )
 
 for domain in additional_domains:
